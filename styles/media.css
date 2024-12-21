@@ -1,0 +1,91 @@
+@media (max-width: 1140px) {
+        .main-box {
+        flex-direction: column;
+        gap: 20px;
+        }
+  
+    .main-catalog {
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    
+  }
+
+  @media (max-width: 750px) {
+    .header-box {
+      flex-direction: column;
+      gap: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+        .header-list {
+          flex-wrap: nowrap;
+          gap: 10px;
+        }
+      
+        .header-content-title,
+        .main-title,
+        .main-bottom-title {
+          font-size: 30px;
+        }
+      
+        .header-content-text {
+          font-size: 24px;
+        }
+      .header-content{
+        height: 400px;
+      }
+      .main-contacts{
+        flex-direction: column;
+        align-items: center;
+      }
+      .main-contacts-left,
+      .main-contacts-right{
+        width: 100%;
+      }
+       
+      }
+
+      @media (max-width: 480px) {
+        .header-content-title,
+        .main-title,
+        .main-bottom-title {
+          font-size: 30px;
+        }
+      
+        .header-content-text,
+        .main-card-title {
+          font-size: 18px;
+        }
+      
+        .footer-list-link {
+          font-size: 14px;
+        }
+      
+        .footer-list-text {
+          font-size: 12px;
+        }
+      
+        .main-catalog {
+          flex-direction: column;
+          gap: 20px;
+          padding-bottom: 50px;
+        }
+      
+        .main-card {
+          margin: 0 auto;
+          width: 100%;
+        }
+        .main-contacts{
+            flex-direction: column;
+            align-items: center;}   
+            .main-contacts-left,
+            .main-contacts-right{
+              width: 100%;
+            }
+
+      }
+   
+  
