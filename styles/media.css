@@ -87,5 +87,33 @@
             }
 
       }
+      @media (max-width: 340px){
+        .header-content-title,
+        .main-title,
+        .main-bottom-title{
+          font-size: 24px;
+          
+        }
+        .header-content-text,
+        .main-card-title{
+          font-size: 16px;
+
+        }
+        .footer-list-link{
+          font-size: 12px;
+
+        }
+        .footer-list-text{
+          font-size: 10px;
+
+        }
+        .header-content-btn,
+        .main-contacts-text,
+        .number,
+        .email{
+          font-size: 14px;
+        }
+
+      }
    
   
